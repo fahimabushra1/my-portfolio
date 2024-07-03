@@ -18,17 +18,17 @@ import firebase from '../../assets/images/firebase.jpg'
 
 const Skill = () => {
     return (
-        <div id="skill" className='flex justify-center items-center bg-stone-200'>
+        <div id="skill" className='flex justify-center items-center'>
             <div className='w-1/2'>
                 <img src={abstract} alt="" />
             </div>
-            <div className='w-1/2 p-16'><h2 className="font-bold text-3xl text-center -mt-4 mb-4">Skills</h2>
-            <div className='flex justify-center items-center flex-wrap gap-4'>
-             <img src={html} alt="" className='w-24 border-double border-4 border-white rounded-full' />
+            <div className="w-1/2 p-16"><h2 className="font-bold text-4xl text-right mb-8">Skills</h2>
+            <div className="flex justify-center items-center flex-wrap gap-4">
+             <img src={html} alt="" className='w-24' />
              <img src={css} alt="" className='w-24' />
+             <img src={js} alt="" className='w-24' />
              <img src={tailwind} alt="" className='w-24' />
              <img src={bootstrap} alt="" className='w-24' />
-             <img src={js} alt="" className='w-24' />
              <img src={react} alt="" className='w-24'/>
              <img src={firebase} alt="" className='w-24'/>
              <img src={node} alt="" className='w-24'/>
