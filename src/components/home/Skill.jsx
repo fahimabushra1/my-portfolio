@@ -1,4 +1,3 @@
-import abstract from '../../assets/images/abstract.png'
 import html from '../../assets/images/html5-logo-1.png'
 import css from '../../assets/images/css-3-logo.png'
 import tailwind from '../../assets/images/Tailwind.png'
@@ -18,12 +17,9 @@ import firebase from '../../assets/images/firebase.jpg'
 
 const Skill = () => {
     return (
-        <div id="skill" className='flex justify-center items-center'>
-            <div className='w-1/2'>
-                <img src={abstract} alt="" />
-            </div>
-            <div className="w-1/2 p-16"><h2 className="font-bold text-4xl text-right mb-8">Skills</h2>
-            <div className="flex justify-center items-center flex-wrap gap-4">
+        <div id="skill">
+            <h2 className="font-bold text-4xl text-center py-8">Skills</h2>
+            <div className="grid grid-cols-4 gap-2 p-24 mx-52 mb-96 items-center">
              <img src={html} alt="" className='w-24' />
              <img src={css} alt="" className='w-24' />
              <img src={js} alt="" className='w-24' />
@@ -42,7 +38,6 @@ const Skill = () => {
              <img src={vscode} alt="" className='w-24'/>
             </div>
             </div>
-        </div>
     );
 };
 

@@ -2,22 +2,20 @@
 
 const Education = () => {
     return (
-        <div id="education" className="p-16">
-         <h2 className="font-bold text-4xl text-left mb-4">Education</h2>
-            <div className="flex justify-center gap-4 items-center ">
-            <div className="card bg-yellow-500 w-96 shadow-xl">
-  <div className="card-body">
-    <h2 className="card-title">Card title!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-  </div>
-</div>
-<div className="card bg-yellow-500 w-96 shadow-xl">
-  <div className="card-body">
-    <h2 className="card-title">Card title!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-  </div>
-</div>
-</div>
+        <div id="education" className="p-8 mt-4 bg-yellow-500">
+         <h2 className="font-bold text-4xl text-center mb-4">Education</h2>
+         <div className="flex justify-between items-center">
+            <div className="font-bold w-1/2 border-r-4 rounded-lg mr-4 shadow-lg">
+              <h2 className="text-xl">Jagannath University,Dhaka, Bangladesh</h2>
+              <p> BBA (Marketing)</p>
+              <p>2014</p>
+            </div>
+            <div className="font-bold w-1/2 border-r-4 rounded-lg pl-2 shadow-lg">
+              <h2 className="text-xl">Jagannath University,Dhaka, Bangladesh</h2>
+              <p> MBA (Marketing)</p>
+              <p>2015</p>
+            </div>
+         </div>
 </div>
     );
 };

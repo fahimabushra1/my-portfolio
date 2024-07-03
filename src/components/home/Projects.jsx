@@ -1,63 +1,77 @@
+import { Link } from 'react-router-dom';
 import project1 from '../../assets/images/project ss.jpg'
-import abstract from '../../assets/images/abstract.png'
-// import bg from '../../assets/images/bg-4.png'
 const Projects = () => {
     return (
-        <div id="projects"  className='flex justify-between items-center bg-yellow-500  px-4 py-8'>
-          <div className="text-wrap w-1/2">
-          <h2 className="font-bold text-4xl text-left -mt-4 mb-8">My Projects</h2>
-          <div className='flex justify-center items-center gap-4'>
-               <div>
-                <img src={project1} alt="" className='h-36 w-80 rounded-lg -mt-12' />
-              </div>
-            <div>
-                <h2 className='font-bold text-xl'>Gloria Jeans Coffee</h2>
-               <div>
-               <p>Login, Registration & Google Sign-Up </p>
-                <p>Search Option, Filter By Categories, and Sorting system</p>
-                <p>Developed a REST API for CRUD operations and stored all data in MongoDB.</p>
-               </div>
-                <button className='bg-[#8854d0] rounded-lg px-4 mt-4 shadow-2xl'>Live Site</button>
-                <button className='bg-[#8854d0] rounded-lg px-4 mx-4 shadow-2xl'>Github Frontend</button>
-                <button className='bg-[#8854d0] rounded-lg px-4 mt-4 shadow-2xl'>Github Backend</button>
-            </div>
-            </div>
-            <div className='flex justify-center items-center gap-4 py-4'>
-               <div>
-                <img src={project1} alt="" className='h-36 w-80  rounded-lg -mt-12' />
-              </div>
-            <div>
-                <h2 className='font-bold text-xl'>Gloria Jeans Coffee</h2>
-               <div>
-               <p>Login, Registration & Google Sign-Up </p>
-                <p>Search Option, Filter By Categories, and Sorting system</p>
-                <p>Developed a REST API for CRUD operations and stored all data in MongoDB.</p>
-               </div>
-                <button className='bg-[#8854d0] rounded-lg px-4 mt-4 shadow-2xl'>Live Site</button>
-                <button className='bg-[#8854d0] rounded-lg px-4 mx-4 shadow-2xl'>Github Frontend</button>
-                <button className='bg-[#8854d0] rounded-lg px-4 mt-4 shadow-2xl'>Github Backend</button>
-            </div>
-            </div>
-            <div className='flex justify-center items-center gap-4'>
-               <div>
-                <img src={project1} alt="" className='h-36 w-80 rounded-lg -mt-12' />
-              </div>
-            <div>
-                <h2 className='font-bold text-xl'>Gloria Jeans Coffee</h2>
-               <div>
-               <p>Login, Registration & Google Sign-Up </p>
-                <p>Search Option, Filter By Categories, and Sorting system</p>
-                <p>Developed a REST API for CRUD operations and stored all data in MongoDB.</p>
-               </div>
-                <button className='bg-[#8854d0] rounded-lg px-4 mt-4 shadow-2xl'>Live Site</button>
-                <button className='bg-[#8854d0] rounded-lg px-4 mx-4 shadow-2xl'>Github Frontend</button>
-                <button className='bg-[#8854d0] rounded-lg px-4 mt-4 shadow-2xl'>Github Backend</button>
-            </div>
-            </div>
-          </div>
-          <div>
-            <img src={abstract} alt="" />
-          </div>
+        <div id="projects"  className='-mt-96'>
+          <h2 className="font-bold text-4xl text-center mb-8">My Projects</h2>
+        <div className='flex justify-evenly items-center'>
+        <div className="card bg-yellow-500 w-96 shadow-xl">
+  <figure>
+    <img
+      src={project1}
+      alt="project1" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">
+    Gloria Jeans Coffee
+    </h2>
+    <p>
+      <li>Login, Registration & Google Sign-Up</li>
+      <li>Search Option, Filter By Categories, and Sorting system</li>
+      <li>Developed a REST API for CRUD operations and stored all data in MongoDB.</li>
+      </p>
+      <div className="card-actions justify-center mt-4">
+      <div className="badge badge-outline"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
+      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
+      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
+    </div>
+  </div>
+</div>
+        <div className="card bg-yellow-500 w-96 shadow-xl">
+  <figure>
+    <img
+      src={project1}
+      alt="project1" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">
+    Gloria Jeans Coffee
+    </h2>
+    <p>
+      <li>Login, Registration & Google Sign-Up</li>
+      <li>Search Option, Filter By Categories, and Sorting system</li>
+      <li>Developed a REST API for CRUD operations and stored all data in MongoDB.</li>
+      </p>
+    <div className="card-actions justify-center mt-4">
+      <div className="badge badge-outline"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
+      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
+      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
+    </div>
+  </div>
+</div>
+        <div className="card bg-yellow-500 w-96 shadow-xl">
+  <figure>
+    <img
+      src={project1}
+      alt="project1" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">
+    Gloria Jeans Coffee
+    </h2>
+    <p>
+      <li>Login, Registration & Google Sign-Up</li>
+      <li>Search Option, Filter By Categories, and Sorting system</li>
+      <li>Developed a REST API for CRUD operations and stored all data in MongoDB.</li>
+      </p>
+      <div className="card-actions justify-center mt-4">
+      <div className="badge badge-outline"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
+      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
+      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
+    </div>
+  </div>
+</div>
+        </div>
         </div>
     );
 };

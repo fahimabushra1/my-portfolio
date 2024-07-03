@@ -3,6 +3,8 @@ import {faLaptopCode} from '@fortawesome/free-solid-svg-icons'
 import {faRocket} from '@fortawesome/free-solid-svg-icons'
 import {faHand} from '@fortawesome/free-solid-svg-icons'
 import abstract from '../../assets/images/abstract.png'
+import {faCircleChevronUp} from '@fortawesome/free-solid-svg-icons'
+import { HashLink as Link } from "react-router-hash-link";
 const About = () => {
     return (
         <div id="about" className="flex justify-between items-center bg-yellow-500 font-bold px-4">
@@ -15,6 +17,7 @@ const About = () => {
           <p><FontAwesomeIcon icon={faRocket} className='text-red-600' /> I transform design concepts into responsive and interactive web pages or optimizing performance for a smoother user journey.My goal is to deliver high-quality,user-friendly products that meet the needs and expectation of users.</p> 
         </div>
         <div><img src={abstract} alt="" /></div>
+        <div className="fixed top-96 right-4"><Link to={'#home'} className="btn btn-ghost text-xl"><FontAwesomeIcon icon={faCircleChevronUp} className="text-black"/></Link></div>
         </div>
     );
 };
