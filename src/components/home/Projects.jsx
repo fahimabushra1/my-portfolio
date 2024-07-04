@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom';
 import project1 from '../../assets/images/project ss.jpg'
+import project2 from '../../assets/images/savory-restaurant.jpg'
 const Projects = () => {
     return (
-        <div id="projects"  className='-mt-96'>
-          <h2 className="font-bold text-4xl text-center mb-8">My Projects</h2>
-        <div className='flex justify-evenly items-center'>
-        <div className="card bg-yellow-500 w-96 shadow-xl">
+        <div id="projects" className='-mt-96'>
+          <h2 className="font-bold text-4xl text-center">My Projects</h2>
+        <div className='flex justify-evenly items-center pt-24'>
+        <div className="card bg-yellow-500 w-96 shadow-2xl 
+        border-b-4 border-purple-700">
   <figure>
     <img
-      src={project1}
+      src={project1} className='w-96 h-60'
       alt="project1" />
   </figure>
   <div className="card-body">
@@ -21,16 +23,17 @@ const Projects = () => {
       <li>Developed a REST API for CRUD operations and stored all data in MongoDB.</li>
       </p>
       <div className="card-actions justify-center mt-4">
-      <div className="badge badge-outline"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
-      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
-      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
     </div>
   </div>
 </div>
-        <div className="card bg-yellow-500 w-96 shadow-xl">
+        <div className="card bg-yellow-500 w-96 shadow-2xl
+        border-b-4 border-purple-700">
   <figure>
     <img
-      src={project1}
+      src={project1} className='w-96 h-60'
       alt="project1" />
   </figure>
   <div className="card-body">
@@ -43,21 +46,22 @@ const Projects = () => {
       <li>Developed a REST API for CRUD operations and stored all data in MongoDB.</li>
       </p>
     <div className="card-actions justify-center mt-4">
-      <div className="badge badge-outline"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
-      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
-      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
     </div>
   </div>
 </div>
-        <div className="card bg-yellow-500 w-96 shadow-xl">
+        <div className="card bg-yellow-500 w-96 shadow-2xl
+        border-b-4 border-purple-700">
   <figure>
     <img
-      src={project1}
-      alt="project1" />
+      src={project2} className='w-96 h-60'
+      alt="project2" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">
-    Gloria Jeans Coffee
+    Savory Restaurant
     </h2>
     <p>
       <li>Login, Registration & Google Sign-Up</li>
@@ -65,9 +69,9 @@ const Projects = () => {
       <li>Developed a REST API for CRUD operations and stored all data in MongoDB.</li>
       </p>
       <div className="card-actions justify-center mt-4">
-      <div className="badge badge-outline"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
-      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
-      <div className="badge badge-outline"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
+      <div className="badge badge-outline badge-primary"><Link to={'https://github.com/fahimabushra1/gloria-jeans-server'}>Backend</Link></div>
     </div>
   </div>
 </div>

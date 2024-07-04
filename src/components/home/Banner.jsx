@@ -6,8 +6,6 @@ import {faFacebook} from '@fortawesome/free-brands-svg-icons'
 // import {faTwitter} from '@fortawesome/free-brands-svg-icons'
 import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 import { Link } from "react-router-dom";
-// import {faCircleChevronUp} from '@fortawesome/free-solid-svg-icons'
-// import { HashLink as Link } from "react-router-hash-link";
 
 
 const Banner = () => {
@@ -31,7 +29,6 @@ const Banner = () => {
                 </div>  
                 <div className="bg-yellow-500" style={{borderRadius:'48% 53% 49% 80% / 55% 58% 0% 0% '}}>
                 <img className=" w-68 -mt-16" src= {myPic}/>
-                {/* <div className="fixed top-40 right-4"><Link to={'#home'} className="btn btn-ghost text-xl"><FontAwesomeIcon icon={faCircleChevronUp} className="text-black"/></Link></div> */}
                 </div>
                 </div>
             </div>

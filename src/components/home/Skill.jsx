@@ -19,23 +19,23 @@ const Skill = () => {
     return (
         <div id="skill">
             <h2 className="font-bold text-4xl text-center py-8">Skills</h2>
-            <div className="grid grid-cols-4 gap-2 p-24 mx-52 mb-96 items-center">
-             <img src={html} alt="" className='w-24' />
-             <img src={css} alt="" className='w-24' />
-             <img src={js} alt="" className='w-24' />
-             <img src={tailwind} alt="" className='w-24' />
-             <img src={bootstrap} alt="" className='w-24' />
-             <img src={react} alt="" className='w-24'/>
-             <img src={firebase} alt="" className='w-24'/>
-             <img src={node} alt="" className='w-24'/>
-             <img src={express} alt="" className='w-24'/>
-             <img src={mongodb} alt="" className='w-24'/>
-             <img src={github} alt="" className='w-24'/>
-             <img src={git} alt="" className='w-24'/>
-             <img src={vite} alt="" className='w-24'/>
-             <img src={figma} alt="" className='w-24'/>
-             <img src={vercel} alt="" className='w-24'/>
-             <img src={vscode} alt="" className='w-24'/>
+            <div className="grid grid-cols-4 gap-4 p-16 mx-52 mb-96 items-center content-center">
+             <img src={html} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={css} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={js} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={tailwind} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={bootstrap} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={react} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={firebase} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={node} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={express} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={mongodb} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={github} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={git} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={vite} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={figma} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={vercel} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
+             <img src={vscode} alt="" className='w-24 h-24 border-4 border-white rounded-3xl shadow-2xl'/>
             </div>
             </div>
     );

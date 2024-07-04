@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLaptopCode} from '@fortawesome/free-solid-svg-icons'
 import {faRocket} from '@fortawesome/free-solid-svg-icons'
 import {faHand} from '@fortawesome/free-solid-svg-icons'
-import abstract from '../../assets/images/abstract.png'
 import {faCircleChevronUp} from '@fortawesome/free-solid-svg-icons'
 import { HashLink as Link } from "react-router-hash-link";
 const About = () => {
